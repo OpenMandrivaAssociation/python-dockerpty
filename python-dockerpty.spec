@@ -19,7 +19,7 @@ a docker container, using the Python client
 Summary:        %{summary}
 BuildRequires:  python2-devel
 BuildRequires:  python2-setuptools
-Requires:       python%{?fedora:2}-six
+Requires:       python2-six
 %{?python_provide:%python_provide python2-%{upstream_name}}
 
 %description -n python2-%{upstream_name} %{_description}
