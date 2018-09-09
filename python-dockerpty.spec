@@ -7,6 +7,9 @@ Summary:        Python library to use the pseudo-tty of a docker container
 License:        ASL 2.0
 URL:            https://github.com/d11wtq/dockerpty
 Source0:        %{url}/archive/v%{version}/%{upstream_name}-%{version}.tar.gz
+BuildRequires:  python-setuptools
+BuildRequires:  python-devel
+BuildRequires:  python-six
 BuildArch:      noarch
 
 %global _description\
