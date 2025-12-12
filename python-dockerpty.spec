@@ -2,7 +2,7 @@
 
 Name:           python-%{upstream_name}
 Version:        0.4.1
-Release:        12%{?dist}
+Release:        12%{?dist}1
 Summary:        Python library to use the pseudo-tty of a docker container
 License:        ASL 2.0
 URL:            https://github.com/d11wtq/dockerpty
